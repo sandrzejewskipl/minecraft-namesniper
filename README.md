@@ -24,3 +24,6 @@ Use namemc.com to figure when a name will drop (example 18:19:06).
 
 #### Run Before Release Time
 Here you can enter when the program is to start before the nickname's availability time. (for example ping to api.minecraftservices.com, if your ping is 30 then type 0.030).
+
+## IMPORTANT
+If the begin button does not appear after pressing the Insert Info button, check the console. After clicking Begin check console for any output after the program tries to get a targeted nickname.
