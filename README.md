@@ -1,6 +1,6 @@
 # Minecraft NameSniper
 
-Based on [cardbooard/Minecraft-NameSniper-Blocker](https://github.com/cardbooard/Minecraft-NameSniper-Blocker), but most of the code was reworked for new API + I removed unnecessary functions.
+Based on [cardbooard/Minecraft-NameSniper-Blocker](https://github.com/cardbooard/Minecraft-NameSniper-Blocker), but most of the code was reworked for the new API. I also removed unnecessary code.
 
 # Dependencies
 - Python3
