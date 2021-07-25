@@ -8,7 +8,7 @@ Based on [cardbooard/Minecraft-NameSniper-Blocker](https://github.com/cardbooard
 
 # Usage
 
-After running program type in a few data from below.
+After running script type in a few data from below.
 
 ### Target
 
