@@ -23,7 +23,7 @@ Login into to your account on minecraft.net, than click CTRL+SHIFT+I, go to Appl
 Use namemc.com to figure when a name will drop (example 18:19:06).
 
 #### Delay after release time
-Delay after release time e.g. 0.005 = 0.005 second.
+Delay after release time e.g. 0.005 = 0.005 second. For example, if u want to send request 0.7 seconds before release time, set release time to 1 second earlier and set delay to 0.3 seconds.
 
 ## IMPORTANT
 If the begin button does not appear after pressing the Insert Info button, check the console. After clicking Begin check console for any output after the program tries to get a targeted nickname.
