@@ -115,7 +115,7 @@ class GUI:
                 # Grab the time right now
                 now = dt.datetime.now().strftime("%H:%M:%S")
                     
-                if now == date:
+                if now >= date:
                     if '.' in PP.get():
                         time.sleep(float(PP.get()))
                     else:
@@ -129,9 +129,7 @@ class GUI:
                         print(s.status_code)
                         print(s.text)
                     break
-                elif now >= date:
-                    print("Wrong time!")
-                    break
+
 
         except Exception as e:
             print(e)
