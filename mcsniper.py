@@ -108,7 +108,9 @@ class GUI:
                     ss = int(s) - 1
                     date = h + ':' + m + ':' + str(ss)
             res = requests.get("https://api.mojang.com/user/security/location", headers={'Authorization': auth,'User-Agent': useragent})
-            print(res.text)           
+            print(res.text)      
+            res = requests.get("https://api.minecraftservices.com/minecraft/profile/namechange", headers={'Authorization': auth,'User-Agent': useragent})
+            print(res.text)
             while True:
                 # Grab the time right now
                 now = dt.datetime.now().strftime("%H:%M:%S")
@@ -126,6 +128,9 @@ class GUI:
                             break
                         print(s.status_code)
                         print(s.text)
+                    break
+                elif now >= date:
+                    print("Wrong time!")
                     break
 
         except Exception as e:
