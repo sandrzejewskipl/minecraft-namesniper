@@ -47,7 +47,7 @@ class GUI:
         E7.place(x=250,y=60)
         PP = Entry(window, bd =5)
         PP.place(x=250,y=80)
-
+        PP.insert(0, 0)
         
         we2 = Button(window,text='Insert Info',command=GUI.insertinfo)
         we2.place(x=165, y=40)
