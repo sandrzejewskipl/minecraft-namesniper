@@ -119,7 +119,7 @@ class GUI:
                     else:
                         time.sleep(int(PP.get()))
                     # Change the username
-                    for i in range(3):
+                    for i in range(5):
                         s=requests.put(f'https://api.minecraftservices.com/minecraft/profile/name/{username}', headers={'Authorization': auth,'User-Agent': useragent})
                         if s.status_code == 200:
                             print(f'{username} is now yours!')
