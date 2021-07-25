@@ -17,6 +17,7 @@ Targeted username.
 ### Bearer key
 
 Login into to your account on minecraft.net, than click CTRL+SHIFT+I, go to Application tab, click on Cookies, find "bearer_token" - click on it and you will see a long value at the bottom - that's the bearer key!
+Remember that bearer key resets every 2 hours. Additionally you need to answer security questions on minecraft.net.
 
 #### Time of Availability
 
