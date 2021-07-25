@@ -43,11 +43,10 @@ class GUI:
         P.place(x=10,y=80)
         P.insert(0, dt.datetime.now().strftime("%H:%M:%S"))
         
-        E7 = Label(window,text='Run Before Release Time')
+        E7 = Label(window,text='Delay after release time')
         E7.place(x=250,y=60)
         PP = Entry(window, bd =5)
         PP.place(x=250,y=80)
-        PP.insert(0, '.935')
 
         
         we2 = Button(window,text='Insert Info',command=GUI.insertinfo)
