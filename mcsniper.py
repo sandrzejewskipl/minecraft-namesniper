@@ -107,7 +107,8 @@ class GUI:
                 else:
                     ss = int(s) - 1
                     date = h + ':' + m + ':' + str(ss)
-            
+            res = requests.get("https://api.mojang.com/user/security/location", headers={'Authorization': auth,'User-Agent': useragent})
+            print(res.text)           
             while True:
                 # Grab the time right now
                 now = dt.datetime.now().strftime("%H:%M:%S")
